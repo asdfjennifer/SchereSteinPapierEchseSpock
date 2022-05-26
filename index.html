@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✂️🪨📄🦎🖖🏼</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Schere, Stein, Papier, Echse, Spock 🖖🏼</h1>
+            <p>How many rounds?</p>
+            <form action="">
+                <input type="radio" id="rounds5_input" name="rounds" value="5" checked>
+                <label for="">5</label>
+                <input type="radio" id="rounds10_input" name="rounds" value="10">
+                <label for="">10</label>
+                <input type="radio" id="rounds15_input" name="rounds" value="15">
+                <label for="">15</label>
+                <input type="radio" id="rounds20_input" name="rounds" value="20">
+                <label for="">20</label>
+            </form>
+        </div>
+        <div>
+            <label for="">User</label>
+            <h2><span id="resultHuman_input">0</span>:<span id="resultComputer_input">0</span></h2>
+            <label for="">Computer</label>
+        </div>
+        <div>
+            <h3 id="h3">Let's play</h3>
+            <img src="https://img.icons8.com/ios/452/hand-rock.png" alt="Stein" id="stone_input" onclick="submit(stone)">
+            <img src="https://img.icons8.com/external-outline-juicy-fish/344/external-scissor-hands-and-gestures-outline-outline-juicy-fish.png" alt="Schere" id="scissor_input" onclick="submit(scissor)">
+            <img src="https://img.icons8.com/ios/452/paper-waste.png" alt="Papier" id="paper_input" onclick="submit(paper)">
+            <img src="https://img.icons8.com/ios/344/lizard.png" alt="Echse" id="echse_input" onclick="submit(echse)">
+            <img src="https://img.icons8.com/ios/344/star-trek-gesture.png" alt="Spock" id="spock_input" onclick="submit(spock)">
+            <figcaption>Make your move</figcaption>
+            <a href="#" id="restart_input" onclick="restart()">RESTART</a>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

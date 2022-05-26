@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+section {
+    border: 10px solid #000;
+    background: #fff;
+    font-family: Helvetica;
+    width: 30%;
+    padding: 5vh 5%;
+    text-align: center;
+    margin: 10vh 35%;
+}
+
+div {
+    margin: 5vh 0;
+    line-height: 2em;
+}
+
+section div img {
+    border: 3px solid #000;
+    border-radius: 50px;
+    width: 30%;
+    margin-top: 2vh;
+    padding: 2%;
+}
+
+section div img:hover {
+    background: grey;
+    transition: all 0.5s ease;
+}
+
+input[type="radio"] {
+    margin: 0 0 0 5%;
+}
