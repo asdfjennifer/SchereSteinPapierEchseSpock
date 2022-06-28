@@ -1,4 +1,4 @@
-# SchereSteinPapierEchseSpock
+# Schere Stein Papier Echse Spock
 
 "Aufgabenstellung
 
